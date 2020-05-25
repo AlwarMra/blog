@@ -1,0 +1,22 @@
+.posts .autor {
+    font-style: italic;
+}
+
+.posts {
+    margin-bottom: 3em;
+}
+
+li {
+    cursor: pointer;
+    color: var(--main-color);
+    text-decoration: underline;
+    transition: .5s ease-in-out;
+}
+
+li:hover {
+    text-decoration: transparent;
+}
+
+.autor {
+    cursor: pointer;
+}

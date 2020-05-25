@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #00304e;
+}
+
+img {
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+body p{
+    font-family: 'Roboto', sans-serif;
+    white-space: pre-wrap;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+h1, h3, a {
+    color: var(--main-color);
+    font-family: 'Philosopher', sans-serif;
+
+}

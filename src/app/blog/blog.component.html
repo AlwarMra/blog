@@ -1,0 +1,23 @@
+<!--  -->
+
+
+<div class="posts row" *ngFor="let post of arrPosts">
+
+    <div class="info col-12 col-md-4">
+        <h3>{{post.titulo}}</h3>
+        <p class="autor" (click)="onClickAutor($event)">{{post.autor}}</p>
+        <p>{{post.fecha | date}}</p>
+    </div>
+
+    <div class="articulo col-12 col-md-8">
+        <p>{{post.texto}}</p>
+        <img [src]="post.imagen" alt="">
+        <br>
+        <br>
+        <ul class="list-group d-flex flex-row">
+            <li *ngFor="let cat of post.categoria" class="list-item mr-2" (click)="onClickCategoria($event)">{{cat}}
+            </li>
+        </ul>
+    </div>
+
+</div>

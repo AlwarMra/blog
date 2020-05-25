@@ -1,0 +1,7 @@
+form {
+    margin-bottom: 50px;
+}
+
+label {
+    color: var(--main-color);
+}
